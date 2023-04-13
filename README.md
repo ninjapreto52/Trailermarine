@@ -6,7 +6,7 @@ João, como dar commit caso git easy não funcione:
 - Verifique a branch que você se encontra digitando o comando "git branch"
 - O comando irá retornar o seguinte:
   > git branch
-  > * branch_atual (geralmente será main)
+  >* branch_atual (geralmente será main)
  - Adicione os arquivos modificados
  - git add . (adiciona TODOS os arquivos modificados)
  - Agora de o commit com o comando:
