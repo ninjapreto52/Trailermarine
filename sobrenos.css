@@ -6,11 +6,12 @@
  {
     width: 100%;
     height: 15vh;
-    background-color: rgb(2, 2, 129);
+    background-color: #01223d;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    over
    
  }
  .esq
@@ -40,7 +41,7 @@
  }
  
  h1{
-    color: rgb(255, 255, 0);
+    color: #a2e1ff;
       font-family: 'Permanent Marker';
       font-style: normal;
       font-weight: 400;
@@ -104,14 +105,14 @@ body
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #a2e1ff;
   
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #884a4a;
 }
 
 
@@ -143,7 +144,7 @@ body
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #a2e1ff;
   border-radius: 3px;
   
   z-index: 1;
@@ -205,7 +206,7 @@ body
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #3f0c0c;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -303,7 +304,7 @@ ul.slides input {
    z-index: 999;
    font-size: 100px;
    line-height: 600px;
-   color: #fff;
+   color: rgb(129, 119, 219);
 }
 
 
@@ -381,4 +382,22 @@ input#img-4:checked ~ .carousel-dots label#img-dot-4,
 input#img-5:checked ~ .carousel-dots label#img-dot-5,
 input#img-6:checked ~ .carousel-dots label#img-dot-6 {
   opacity: 1;
+}
+.sobrenoz
+{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   height: 30%;
+
+}
+.texto
+{
+   width: 70%;
+   height: 50%;
+   color: #a2e1ff;
+   
 }
