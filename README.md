@@ -5,8 +5,8 @@ João, como dar commit caso git easy não funcione:
 - Abra o terminal do VS Code
 - Verifique a branch que você se encontra digitando o comando "git branch"
 - O comando irá retornar o seguinte:
-  - > git branch
-  - > * branch_atual (geralmente será main)
+  > git branch
+  > * branch_atual (geralmente será main)
  - Adicione os arquivos modificados
  - git add . (adiciona TODOS os arquivos modificados)
  - Agora de o commit com o comando:
